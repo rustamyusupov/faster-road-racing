@@ -3,10 +3,13 @@ import './Title.css';
 
 class Title extends Component {
   render() {
+    const { component } = this.props;
+    const Tag = component;
+
     return (
-      <h1 className="title">
+      <Tag className="title">
         {this.props.text}
-      </h1>
+      </Tag>
     );
   }
 }
