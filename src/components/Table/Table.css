@@ -1,0 +1,9 @@
+.table {
+  font-size: 12px;
+}
+
+.th,
+.td {
+  text-align: left;
+  vertical-align: top;
+}

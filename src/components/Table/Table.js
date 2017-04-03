@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import cx from 'classnames';
 import './Table.css';
 
 class Table extends Component {
@@ -9,7 +10,14 @@ class Table extends Component {
       <thead>
         <tr>{
           head.map((th, idx) => {
-            return <th key={idx}>{th}</th>;
+            return (
+              <th
+                className='th'
+                key={idx}
+              >
+                {th}
+              </th>
+            );
           })
         }</tr>
       </thead>
@@ -24,7 +32,14 @@ class Table extends Component {
         body.map((tr, idx) => {
           return <tr key={idx}>{
             tr.map((td, idx) => {
-              return <td key={idx}>{td}</td>;
+              return (
+                <td
+                  className='td'
+                  key={idx}
+                >
+                  {td}
+                </td>
+              );
             })
           }</tr>;
         })
@@ -34,7 +49,11 @@ class Table extends Component {
 
   render() {
     return (
-      <table className="Table">
+      <table
+        className={cx({
+          table: true
+        })}
+      >
         {this.renderHead()}
         {this.renderBody()}
       </table>
