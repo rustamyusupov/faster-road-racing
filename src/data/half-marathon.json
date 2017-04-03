@@ -1,0 +1,148 @@
+{
+  "hm1": {
+    
+  },
+  "hm2": {
+    "title": "Half Marathon Schedule 2: 73 to 102 km per week",
+    "head": [
+      "Weeks to goal",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Weekly volume"
+    ],
+    "body": [
+      [
+        "11",
+        "Rest or cross-training",
+        "General aerobic 14 km",
+        "Lactate threshold 13 km 15 min LT interval (jog 4 min recovery) 12 min LT interval",
+        "Endurance 16 km",
+        "Rest or cross-training",
+        "General aerobic + speed 11 km 2 sets of 6 × 100 m strides (jog 3 min between sets)",
+        "Endurance 19 km",
+        "73 km"
+      ], [
+        "10",
+        "Rest or cross-training",
+        "General aerobic 14 km",
+        "Lactate threshold 14 km 18 min LT interval (jog 4 min recovery) 14 min LT interval",
+        "Endurance 18 km",
+        "Rest or cross-training",
+        "General aerobic + speed 11 km 6 × 12 sec uphill followed by 8 × 100 m strides",
+        "Endurance 21 km",
+        "78 km"
+      ], [
+        "9",
+        "Rest or cross-training",
+        "General aerobic 14 km",
+        "Lactate threshold 16 km 20 min LT interval (jog 4 min recovery) 16 min LT interval",
+        "Endurance 18 km",
+        "Rest or cross-training",
+        "General aerobic + speed 13 km 6 × 12 sec uphill followed by 8 × 100 m strides",
+        "Progression long run 23 km Increase effort steadily throughout run, last 3 km @ LT pace",
+        "52 miles 84 km"
+      ], [
+        "8 Recovery",
+        "Rest or cross-training",
+        "General aerobic 13 km",
+        "General aerobic 16 km",
+        "General aerobic 14 km",
+        "Rest or cross-training",
+        "General aerobic + speed 14 km 2 sets of 5 × 150 m strides (jog 250 m recovery and 4 min between sets)",
+        "Endurance 18 km",
+        "75 km"
+      ], [
+        "7",
+        "Rest or cross-training",
+        "General aerobic 14 km",
+        "Lactate threshold 16 km 22 min LT interval (jog 4 min recovery) 18 min LT interval",
+        "Endurance 18 km",
+        "Recovery 5 km",
+        "General aerobic + speed 13 km 2 sets of 6 × 100 m strides (jog 3 min between sets)",
+        "Progression long run 23 km Increase effort steadily throughout run, last 5 km @ LT pace",
+        "89 km"
+      ], [
+        "6",
+        "Rest or cross-training",
+        "General aerobic 14 km",
+        "VO2max 16 km 3 × 1,200 m, 3 × 1,000 m All intervals @ 3K-5K race pace (jog 50-90% interval time recovery)",
+        "Endurance 19 km",
+        "Recovery 6 km",
+        "General aerobic + speed 13 km 6 × 12 sec uphill followed by 8 × 100 m strides",
+        "Endurance 24 km",
+        "92 km"
+      ], [
+        "5",
+        "Rest or cross-training",
+        "General aerobic 14 km",
+        "Lactate threshold 16 km 40 min tempo run",
+        "Endurance 19 km",
+        "Recovery 8 km",
+        "General aerobic + speed 14 km 10 × 100 m strides",
+        "Progression long run 26 km Increase effort steadily throughout run, last 5 km @ LT pace",
+        "97 km"
+      ], [
+        "4",
+        "Rest or cross-training",
+        "General aerobic + speed 16 km 2 sets of 5 × 150 m strides (jog 250 m recovery and 4 min between sets)",
+        "General aerobic 14 km",
+        "Recovery 11 km",
+        "Recovery 6 km 4 × 100 m strides",
+        "8K-10K tune-up race 16 km",
+        "Endurance 19 km",
+        "84 km"
+      ], [
+        "3",
+        "Rest or cross-training",
+        "General aerobic 14 km",
+        "Endurance 18 km",
+        "VO2max 18 km 6 × 1,200 m @ 3K-5K race pace (jog 50-90% interval time recovery)",
+        "Recovery 10 km",
+        "General aerobic 16 km",
+        "Endurance 26 km",
+        "102 km"
+      ], [
+        "2",
+        "Rest or cross-training",
+        "General aerobic + speed 16 km 2 sets of 5 × 150 m strides (jog 250 m recovery and 4 min between sets)",
+        "General aerobic 14 km",
+        "Recovery 11 km",
+        "Recovery 6 km 4 × 100 m strides",
+        "8K-10K tune-up race 16 km",
+        "Endurance 19 km",
+        "84 km"
+      ], [
+        "1",
+        "Rest or cross-training",
+        "General aerobic 11 km",
+        "Recovery 8 km",
+        "VO2max 16 km 2 × 1,200 m, 4 × 800 m All intervals @ 3K-5K race pace (jog 50-90% interval time recovery)",
+        "Recovery 6 km",
+        "General aerobic + speed 10 km 2 sets of 6 × 100 m strides (jog 3 min between sets)",
+        "Endurance 18 km",
+        "69 km"
+      ], [
+        "0",
+        "Rest or cross-training",
+        "Race pace + speed 13 km 6 × 100 m strides 2 miles @ half marathon race pace",
+        "Recovery 11 km",
+        "Recovery 10 km",
+        "Rest",
+        "Recovery 6 km 4 × 100 m strides",
+        "Half marathon goal race 27 km",
+        "67 km"
+      ]
+    ]
+  },
+  "hm3": {
+    
+  },
+  "hm4": {
+    
+  }
+}
