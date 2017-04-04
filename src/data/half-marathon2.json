@@ -1,0 +1,473 @@
+{
+  "title": "Half Marathon Schedule 2: 73 to 102 km per week",
+  "head": [
+    "Weeks to goal",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Weekly volume"
+  ],
+  "body": [
+    [
+      {
+        "type": "Week",
+        "distance": "11",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "14",
+        "description": ""
+      }, {
+        "type": "LT",
+        "distance": "13",
+        "description": "15 min LT interval\n(jog 4 min recovery)\n12 min LT interval"
+      }, {
+        "type": "E",
+        "distance": "16",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GAs",
+        "distance": "11",
+        "description": "2 sets of 6 × 100 m strides\n(jog 3 min between sets)"
+      }, {
+        "type": "E",
+        "distance": "19",
+        "description": ""
+      }, {
+        "type": "Total",
+        "distance": "73 km",
+        "description": ""
+      }
+    ], [
+      {
+        "type": "Week",
+        "distance": "10",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "14",
+        "description": ""
+      }, {
+        "type": "LT",
+        "distance": "14",
+        "description": "18 min LT interval\n(jog 4 min recovery)\n14 min LT interval"
+      }, {
+        "type": "E",
+        "distance": "18",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GAs",
+        "distance": "11",
+        "description": "6 × 12 sec uphill\nfollowed by\n8 × 100 m strides"
+      }, {
+        "type": "E",
+        "distance": "21",
+        "description": ""
+      }, {
+        "type": "Total",
+        "distance": "78 km",
+        "description": ""
+      }
+    ], [
+      {
+        "type": "Week",
+        "distance": "9",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "14",
+        "description": ""
+      }, {
+        "type": "LT",
+        "distance": "16",
+        "description": "20 min LT interval\n(jog 4 min recovery)\n16 min LT interval"
+      }, {
+        "type": "E",
+        "distance": "18",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GAs",
+        "distance": "13",
+        "description": "6 × 12 sec uphill\nfollowed by\n8 × 100 m strides"
+      }, {
+        "type": "PLR",
+        "distance": "23",
+        "description": "Increase effort\nsteadily throughout run,\nlast 3 km @ LT pace"
+      }, {
+        "type": "Total",
+        "distance": "84 km",
+        "description": ""
+      }
+    ], [
+      {
+        "type": "Week",
+        "distance": "8R",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "13",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "16",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "14",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GAs",
+        "distance": "14",
+        "description": "2 sets of 5 × 150 m strides\n(jog 250 m recovery\nand 4 min between sets)"
+      }, {
+        "type": "E",
+        "distance": "18",
+        "description": ""
+      }, {
+        "type": "Total",
+        "distance": "75 km",
+        "description": ""
+      }
+    ], [
+      {
+        "type": "Week",
+        "distance": "7",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "14",
+        "description": ""
+      }, {
+        "type": "LT",
+        "distance": "16",
+        "description": "22 min LT interval\n(jog 4 min recovery)\n18 min LT interval"
+      }, {
+        "type": "E",
+        "distance": "18",
+        "description": ""
+      }, {
+        "type": "R",
+        "distance": "5",
+        "description": ""
+      }, {
+        "type": "GAs",
+        "distance": "13",
+        "description": "2 sets of 6 × 100 m strides\n(jog 3 min between sets)"
+      }, {
+        "type": "PLR",
+        "distance": "23",
+        "description": "Increase effort\nsteadily throughout run,\nlast 5 km @ LT pace"
+      }, {
+        "type": "Total",
+        "distance": "89 km",
+        "description": ""
+      }
+    ], [
+      {
+        "type": "Week",
+        "distance": "6",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "14",
+        "description": ""
+      }, {
+        "type": "VO2max",
+        "distance": "16",
+        "description": "3 × 1,200 m, 3 × 1,000 m\nAll intervals @ 3K-5K race pace\n(jog 50-90% interval time recovery)"
+      }, {
+        "type": "E",
+        "distance": "19",
+        "description": ""
+      }, {
+        "type": "R",
+        "distance": "6",
+        "description": ""
+      }, {
+        "type": "GAs",
+        "distance": "13",
+        "description": "6 × 12 sec uphill\nfollowed by 8 × 100 m strides"
+      }, {
+        "type": "E",
+        "distance": "24",
+        "description": "Increase effort\nsteadily throughout run,\nlast 5 km @ LT pace"
+      }, {
+        "type": "Total",
+        "distance": "92 km",
+        "description": ""
+      }
+    ], [
+      {
+        "type": "Week",
+        "distance": "5",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "14",
+        "description": ""
+      }, {
+        "type": "LT",
+        "distance": "16",
+        "description": "40 min tempo run"
+      }, {
+        "type": "E",
+        "distance": "19",
+        "description": ""
+      }, {
+        "type": "R",
+        "distance": "8",
+        "description": ""
+      }, {
+        "type": "GAs",
+        "distance": "14",
+        "description": "10 × 100 m strides"
+      }, {
+        "type": "PLR",
+        "distance": "26",
+        "description": "Increase effort\nsteadily throughout run,\nlast 5 km @ LT pace"
+      }, {
+        "type": "Total",
+        "distance": "97 km",
+        "description": ""
+      }
+    ], [
+      {
+        "type": "Week",
+        "distance": "4",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GAs",
+        "distance": "16",
+        "description": "2 sets of 5 × 150 m strides\n(jog 250 m recovery\nand 4 min between sets)"
+      }, {
+        "type": "GA",
+        "distance": "14",
+        "description": ""
+      }, {
+        "type": "R",
+        "distance": "11",
+        "description": ""
+      }, {
+        "type": "R",
+        "distance": "6",
+        "description": "4 × 100 m strides"
+      }, {
+        "type": "8K-10K TUR",
+        "distance": "16",
+        "description": ""
+      }, {
+        "type": "E",
+        "distance": "19",
+        "description": ""
+      }, {
+        "type": "Total",
+        "distance": "84 km",
+        "description": ""
+      }
+    ], [
+      {
+        "type": "Week",
+        "distance": "3",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "14",
+        "description": ""
+      }, {
+        "type": "E",
+        "distance": "18",
+        "description": ""
+      }, {
+        "type": "VO2max",
+        "distance": "18",
+        "description": "6 × 1,200 m @ 3K-5K race pace\n(jog 50-90% interval time recovery)"
+      }, {
+        "type": "R",
+        "distance": "10",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "16",
+        "description": ""
+      }, {
+        "type": "E",
+        "distance": "26",
+        "description": ""
+      }, {
+        "type": "Total",
+        "distance": "102 km",
+        "description": ""
+      }
+    ], [
+      {
+        "type": "Week",
+        "distance": "2",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GAs",
+        "distance": "16",
+        "description": "2 sets of 5 × 150 m strides\n(jog 250 m recovery\nand 4 min between sets)"
+      }, {
+        "type": "GA",
+        "distance": "14",
+        "description": ""
+      }, {
+        "type": "R",
+        "distance": "11",
+        "description": ""
+      }, {
+        "type": "R",
+        "distance": "6",
+        "description": "4 × 100 m strides"
+      }, {
+        "type": "8K-10K TUR",
+        "distance": "16",
+        "description": ""
+      }, {
+        "type": "E",
+        "distance": "19",
+        "description": ""
+      }, {
+        "type": "Total",
+        "distance": "84 km",
+        "description": ""
+      }
+    ], [
+      {
+        "type": "Week",
+        "distance": "1",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "11",
+        "description": ""
+      }, {
+        "type": "R",
+        "distance": "8",
+        "description": ""
+      }, {
+        "type": "VO2max",
+        "distance": "16",
+        "description": "2 × 1,200 m, 4 × 800 m\nAll intervals @ 3K-5K race pace\n(jog 50-90% interval time recovery)"
+      }, {
+        "type": "R",
+        "distance": "6",
+        "description": ""
+      }, {
+        "type": "GAs",
+        "distance": "10",
+        "description": "2 sets of 6 × 100 m strides\n(jog 3 min between sets)"
+      }, {
+        "type": "E",
+        "distance": "18",
+        "description": ""
+      }, {
+        "type": "Total",
+        "distance": "69 km",
+        "description": ""
+      }
+    ], [
+      {
+        "type": "Week",
+        "distance": "0",
+        "description": ""
+      }, {
+        "type": "R/CT",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "RPs",
+        "distance": "13",
+        "description": "6 × 100 m strides\n3.2 km @ half marathon\nrace pace"
+      }, {
+        "type": "R",
+        "distance": "11",
+        "description": ""
+      }, {
+        "type": "R",
+        "distance": "10",
+        "description": ""
+      }, {
+        "type": "Rest",
+        "distance": "",
+        "description": ""
+      }, {
+        "type": "R",
+        "distance": "6",
+        "description": "4 × 100 m strides"
+      }, {
+        "type": "HM goal race",
+        "distance": "27",
+        "description": ""
+      }, {
+        "type": "Total",
+        "distance": "67 km",
+        "description": ""
+      }
+    ]
+  ]
+}
