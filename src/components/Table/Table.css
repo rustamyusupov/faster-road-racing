@@ -1,9 +1,47 @@
 .table {
-  font-size: 12px;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .th,
 .td {
+  padding-right: 3px;
+  padding-bottom: 1px;
+  padding-left: 3px;
   text-align: left;
+  border: 2px solid #bdbec1;
+}
+
+.th:first-child,
+.td:first-child {
+  width: 42px;
+}
+
+.th:nth-child(2),
+.td:nth-child(2) {
+  width: 45px;
+}
+
+.th:last-child,
+.td:last-child {
+  width: 43px;
+}
+
+.th {
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  vertical-align: bottom;
+  background-color: #949599;
+}
+
+.td {
+  height: 20px;
+  font-size: 10px;
+  white-space: pre;
   vertical-align: top;
+}
+
+.td:nth-child(1) {
+  font-weight: 700;
 }
