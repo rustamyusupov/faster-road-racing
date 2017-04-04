@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import cx from 'classnames';
 import './Table.css';
 
 class Table extends Component {
@@ -54,7 +53,7 @@ class Table extends Component {
 
   render() {
     return (
-      <table className={cx({table: true})}>
+      <table className='table'>
         {this.renderHead()}
         {this.renderBody()}
       </table>
