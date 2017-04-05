@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Table.css';
+import Link from '../Link/Link';
 
 class Table extends Component {
   renderHead() {
@@ -20,25 +21,38 @@ class Table extends Component {
     );
   }
 
+  renderCell(item, index) {
+    const { type, distance, description } = item;
+    const isNotTraining = type === 'Week' || type === 'Total';
+    const link = <Link href='#'>{type}</Link>;
+
+    if (isNotTraining) {
+      return (distance);
+    }
+
+    if (distance) {
+      return (
+        <span>
+          {link}-{distance}<br/>{description}
+        </span>
+      );
+    }
+
+    return (link);
+  }
+
   renderRow(item, index) {
-    return <tr key={index}>
-
-      {item.map((td, idx) => {
-        const isNotTraining = td.type === 'Week' || td.type === 'Total';
-        const text = isNotTraining ?
-          td.distance :
-          td.distance ?
-            `${td.type}–${td.distance}\n${td.description}` :
-            td.type;
-
-        return (
-          <td className='td' key={idx}>
-            {text}
-          </td>
-        );
-      })}
-
-    </tr>;
+    return (
+      <tr key={index}>
+        {item.map((td, index) => {
+          return (
+            <td className='td' key={index}>
+              {this.renderCell(td, index)}
+            </td>
+          );
+        })}
+      </tr>
+    );
   }
 
   renderBody() {
