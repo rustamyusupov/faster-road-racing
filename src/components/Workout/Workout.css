@@ -1,0 +1,7 @@
+.workout__link {
+  position: relative;
+}
+
+.workout__tooltip {
+  position: absolute;
+}
