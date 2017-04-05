@@ -13,7 +13,9 @@ class Schedule extends Component {
           <Title component={'h2'} data={plan.title} />
         </div>
 
-        <Table data={plan} />
+        <div className='schedule__table'>
+          <Table data={plan} />
+        </div>
       </section>
     );
   }
