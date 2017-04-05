@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Table.css';
-import Link from '../Link/Link';
+import Workout from '../Workout/Workout';
 
 class Table extends Component {
   renderHead() {
@@ -11,7 +11,7 @@ class Table extends Component {
         <tr>
           {head.map((th, idx) => {
             return (
-              <th className='th' key={idx}>
+              <th className='table__th' key={idx}>
                 {th}
               </th>
             );
@@ -21,33 +21,13 @@ class Table extends Component {
     );
   }
 
-  renderCell(item, index) {
-    const { type, distance, description } = item;
-    const isNotTraining = type === 'Week' || type === 'Total';
-    const link = <Link href='#'>{type}</Link>;
-
-    if (isNotTraining) {
-      return (distance);
-    }
-
-    if (distance) {
-      return (
-        <span>
-          {link}-{distance}<br/>{description}
-        </span>
-      );
-    }
-
-    return (link);
-  }
-
-  renderRow(item, index) {
+  renderRow(tr, index) {
     return (
       <tr key={index}>
-        {item.map((td, index) => {
+        {tr.map((td, index) => {
           return (
-            <td className='td' key={index}>
-              {this.renderCell(td, index)}
+            <td className='table__td' key={index}>
+              <Workout td={td} index={index} />
             </td>
           );
         })}
