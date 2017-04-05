@@ -1,0 +1,10 @@
+.app {
+  padding-right: 10px;
+  padding-left: 10px;
+  max-width: 1280px;
+  min-width: 1000px;
+}
+
+.app__title {
+  margin-bottom: 20px;
+}
