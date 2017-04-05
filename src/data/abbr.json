@@ -1,12 +1,13 @@
 {
-  "Rest or cross-training": "R/CT",
-  "Recovery": "R",
-  "General aerobic": "GA",
-  "Lactate threshold": "LT",
-  "Endurance": "E",
-  "General aerobic + speed": "GAs",
-  "Progression long run": "PLR",
-  "Tune-up race": "TUR",
-  "Race pace + speed": "RPs"
-  "Half marathon": "HM"
+  "R/CT": "Rest or cross-training",
+  "R": "Recovery",
+  "GA": "General aerobic",
+  "LT": "Lactate threshold",
+  "E": "Endurance",
+  "GAs": "General aerobic + speed",
+  "VO2max": "VO2max intervals",
+  "PLR": "Progression long run",
+  "8K-10K TUR": "8K-10K Tune-up race",
+  "RPs": "Race pace + speed",
+  "HM goal race": "Half marathon goal race"
 }
