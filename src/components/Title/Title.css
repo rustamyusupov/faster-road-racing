@@ -2,3 +2,11 @@
   margin: 0;
   font-size: 16px;
 }
+
+.title_size_big {
+  font-size: 20px;
+}
+
+.title_align_center {
+  text-align: center;
+}
