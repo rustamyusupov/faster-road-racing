@@ -5,9 +5,9 @@
   opacity: 0;
   z-index: 20;
   background-color: #fff;
-  box-shadow: 0 5px 10px 0 rgba(63, 73, 96, 0.2);
-  border: 1px solid lightgray;
-  transition: opacity 0.3s 0.2s, transform 0.3s 0.2s;
+  box-shadow: 0 5px 10px 0 rgba(63, 73, 96, .2);
+  border: 1px solid #bdbec1;
+  transition: opacity .3s .2s, transform .3s .2s;
   pointer-events: none;
 }
 

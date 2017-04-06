@@ -30,7 +30,6 @@
     "at-rule-no-vendor-prefix": true,
     "rule-empty-line-before": "always",
     "selector-pseudo-element-colon-notation": "double",
-    "selector-pseudo-class-parentheses-space-inside": "always",
     "selector-no-vendor-prefix": true,
     "selector-no-type": true,
     "media-feature-range-operator-space-before": "always",
