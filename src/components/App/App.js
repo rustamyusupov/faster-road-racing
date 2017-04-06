@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Title from '../Title/Title';
 import Schedule from '../Schedule/Schedule';
-import hm2 from '../../data/half-marathon2.json';
 
 class App extends Component {
   render() {
@@ -12,7 +11,7 @@ class App extends Component {
           <Title size='big' align='center' data='Faster Road Racing' />
         </div>
 
-        <Schedule plan={hm2} />
+        <Schedule plan='half-marathon2' />
       </div>
     );
   }

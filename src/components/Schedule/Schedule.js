@@ -2,10 +2,39 @@ import React, { Component } from 'react';
 import './Schedule.css';
 import Title from '../Title/Title';
 import Table from '../Table/Table';
+import axios from 'axios';
 
 class Schedule extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      abbr: {},
+      plan: {}
+    };
+  }
+
+  componentDidMount() {
+    const abbrURL = '/data/abbr.json';
+    const planURL = `/data/${this.props.plan}.json`;
+
+    axios.get(abbrURL)
+      .then(res => {
+        const abbr = res.data;
+
+        this.setState({ abbr });
+      });
+
+    axios.get(planURL)
+      .then(res => {
+        const plan = res.data;
+
+        this.setState({ plan });
+      });
+  }
+
   render() {
-    const { plan } = this.props;
+    const { plan, abbr } = this.state;
 
     return (
       <section className='schedule'>
@@ -14,7 +43,7 @@ class Schedule extends Component {
         </div>
 
         <div className='schedule__table'>
-          <Table type='schedule' data={plan} />
+          <Table type='schedule' abbr={abbr} data={plan} />
         </div>
       </section>
     );

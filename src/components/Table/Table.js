@@ -6,6 +6,10 @@ class Table extends Component {
   renderHead() {
     const { head } = this.props.data;
 
+    if (!head) {
+      return;
+    }
+
     return (
       <thead>
         <tr>
@@ -22,7 +26,7 @@ class Table extends Component {
   }
 
   renderRow(tr, index) {
-    const { type } = this.props;
+    const { type, abbr } = this.props;
 
     return (
       <tr key={index}>
@@ -30,7 +34,7 @@ class Table extends Component {
           return (
             <td className='table__td' key={index}>
               {type === 'schedule' ?
-                <Workout td={td} index={index} /> :
+                <Workout td={td} abbr={abbr} index={index} /> :
                 td}
             </td>
           );
@@ -41,6 +45,10 @@ class Table extends Component {
 
   renderBody() {
     const { body } = this.props.data;
+
+    if (!body) {
+      return;
+    }
 
     return (
       <tbody>

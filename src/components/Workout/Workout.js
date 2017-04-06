@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Workout.css';
 import Link from '../Link/Link';
 import Tooltip from '../Tooltip/Tooltip';
-import abbr from '../../data/abbr.json';
 
 class Workout extends Component {
   state = {
@@ -18,6 +17,7 @@ class Workout extends Component {
   }
 
   renderType(type) {
+    const { abbr } = this.props;
     const description = abbr[type] || '';
 
     return (
