@@ -14,7 +14,7 @@ class Schedule extends Component {
         </div>
 
         <div className='schedule__table'>
-          <Table data={plan} />
+          <Table type='schedule' data={plan} />
         </div>
       </section>
     );

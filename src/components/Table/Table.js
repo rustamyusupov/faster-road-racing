@@ -22,12 +22,16 @@ class Table extends Component {
   }
 
   renderRow(tr, index) {
+    const { type } = this.props;
+
     return (
       <tr key={index}>
         {tr.map((td, index) => {
           return (
             <td className='table__td' key={index}>
-              <Workout td={td} index={index} />
+              {type === 'schedule' ?
+                <Workout td={td} index={index} /> :
+                td}
             </td>
           );
         })}
