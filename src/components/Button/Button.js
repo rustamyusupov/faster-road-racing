@@ -4,7 +4,7 @@ import cx from 'classnames';
 
 class Button extends Component {
   render() {
-    const { children, type } = this.props;
+    const { children, type, onClick } = this.props;
  
     return (
       <button
@@ -13,6 +13,7 @@ class Button extends Component {
           [`button_type_${type}`]: type
         })}
         type='button'
+        onClick={onClick}
       >
         {children}
       </button>
