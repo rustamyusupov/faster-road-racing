@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import cx from 'classnames';
 import './Title.css';
+import cx from 'classnames';
 
 class Title extends Component {
   render() {
