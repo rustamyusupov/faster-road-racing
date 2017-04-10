@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Workout.css';
-import Link from '../Link/Link';
+import Button from '../Button/Button';
 import Tooltip from '../Tooltip/Tooltip';
 
 class Workout extends Component {
@@ -27,9 +27,9 @@ class Workout extends Component {
           onMouseOver={this.handleMouseOver}
           onMouseOut={this.handleMouseOut}
         >
-          <Link href='#'>
+          <Button type='link'>
             {type}
-          </Link>
+          </Button>
         </span>
 
         <span className='workout__tooltip'>
