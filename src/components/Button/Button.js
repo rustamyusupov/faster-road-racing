@@ -1,13 +1,32 @@
-import React, { Component } from 'react';
+import React, { PureComponent, PropTypes as pt } from 'react';
 import './Button.css';
 import cx from 'classnames';
 
-class Button extends Component {
+export default class Button extends PureComponent {
+  static propTypes = {
+    children: pt.node,
+    component: pt.string,
+    type: pt.oneOf([
+      'link'
+    ]),
+    onClick: pt.func,
+  };
+
+  static defaultProps = {
+    component: 'button',
+  };
+
   render() {
-    const { children, type, onClick } = this.props;
- 
+    const {
+      children,
+      component,
+      type,
+      onClick,
+    } = this.props;
+    const Tag = component;
+
     return (
-      <button
+      <Tag
         className={cx({
           button: true,
           [`button_type_${type}`]: type
@@ -16,9 +35,7 @@ class Button extends Component {
         onClick={onClick}
       >
         {children}
-      </button>
+      </Tag>
     );
   }
 }
-
-export default Button;

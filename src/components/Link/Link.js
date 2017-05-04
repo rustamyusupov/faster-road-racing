@@ -1,16 +1,29 @@
-import React, { Component } from 'react';
+import React, { PureComponent, PropTypes as pt } from 'react';
 import './Link.css';
 
-class Link extends Component {
+export default class Link extends PureComponent {
+  static propTypes = {
+    children: pt.node,
+    component: pt.string,
+    href: pt.string,
+  };
+
+  static defaultProps = {
+    component: 'a',
+  };
+
   render() {
-    const { href, children } = this.props;
- 
+    const {
+      children,
+      component,
+      href,
+    } = this.props;
+    const Tag = component;
+
     return (
-      <a className='link' href={href}>
+      <Tag className='link' href={href}>
         {children}
-      </a>
+      </Tag>
     );
   }
 }
-
-export default Link;

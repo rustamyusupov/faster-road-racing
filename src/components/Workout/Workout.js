@@ -1,44 +1,54 @@
-import React, { Component } from 'react';
+import React, { PureComponent, PropTypes as pt } from 'react';
 import './Workout.css';
+
+import Modal from '../Modal/Modal';
+import Text from '../Text/Text';
 import Button from '../Button/Button';
 import Tooltip from '../Tooltip/Tooltip';
-import Modal from '../Modal/Modal';
 
-class Workout extends Component {
+export default class Workout extends PureComponent {
+  static propTypes = {
+    abbr: pt.object,
+    data: pt.object,
+  };
+
   state = {
     tooltip: false,
-    showModal: false
+    showModal: false,
   }
 
-  handleMouseOver = () => {
+  handleMouseOver = () =>
     this.setState({ tooltip: true });
-  }
 
-  handleMouseOut = () => {
+  handleMouseOut = () =>
     this.setState({ tooltip: false });
-  }
 
-  handleOpenModal = () => {
+  handleOpenModal = () =>
     this.setState({ showModal: true });
-  }
 
-  handleCloseModal = () => {
+  handleCloseModal = () =>
     this.setState({ showModal: false });
-  }
 
-  renderType(type) {
-    const { abbr } = this.props;
-    const description = abbr[type] || '';
+  renderType(type, abbr) {
+    const {
+      showModal,
+      tooltip,
+    } = this.state;
+    const description = abbr && abbr[type];
 
     return (
       <span className='workout__type'>
         <Modal
           contentLabel='Test'
-          close='true'
-          isOpen={this.state.showModal}
+          close={true}
+          isOpen={showModal}
           onRequestClose={this.handleCloseModal}
         >
+          <Text>
+            For most of your long runs we recommend beginning at a conversational pace and gradually increasing your tempo as the run progresses.
+          </Text>
         </Modal>
+
         <Button type='link'
           onClick={this.handleOpenModal}
           onMouseOver={this.handleMouseOver}
@@ -48,7 +58,7 @@ class Workout extends Component {
         </Button>
 
         <span className='workout__tooltip'>
-          <Tooltip visible={this.state.tooltip}>
+          <Tooltip visible={tooltip}>
             {description}
           </Tooltip>
         </span>
@@ -57,7 +67,12 @@ class Workout extends Component {
   }
 
   render() {
-    const { type, distance, description } = this.props.td;
+    const {
+      type,
+      distance,
+      description
+    } = this.props.data;
+    const { abbr } = this.props;
     const isNotTraining = type === 'Week' || type === 'Total';
 
     if (isNotTraining) {
@@ -78,10 +93,8 @@ class Workout extends Component {
 
     return (
       <span className='workout'>
-        {this.renderType(type)}
+        {this.renderType(type, abbr)}
       </span>
     );
   }
 }
-
-export default Workout;

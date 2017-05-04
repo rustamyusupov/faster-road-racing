@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './Schedule.css';
 import Title from '../Title/Title';
 import Table from '../Table/Table';
 import axios from 'axios';
 
-class Schedule extends Component {
+export default class Schedule extends PureComponent {
   constructor(props) {
     super(props);
 
     this.state = {
       abbr: {},
-      plan: {}
+      plan: {},
     };
   }
 
@@ -43,11 +43,9 @@ class Schedule extends Component {
         </div>
 
         <div className='schedule__table'>
-          <Table type='schedule' abbr={abbr} data={plan} />
+          <Table abbr={abbr} data={plan} />
         </div>
       </section>
     );
   }
 }
-
-export default Schedule;

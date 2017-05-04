@@ -1,25 +1,25 @@
-import React, { PureComponent, PropTypes } from 'react';
+import React, { PureComponent, PropTypes as pt } from 'react';
 import './Text.css';
 import cx from 'classnames';
 
 export default class Text extends PureComponent {
   static propTypes = {
-    children: PropTypes.node,
-    component: PropTypes.string,
-    color: PropTypes.oneOf([
-      'inherit'
-    ])
+    children: pt.node,
+    component: pt.string,
+    color: pt.oneOf([
+      'inherit',
+    ]),
   };
 
   static defaultProps = {
-    component: 'p'
+    component: 'p',
   };
 
   render() {
     const {
       children,
       component,
-      color
+      color,
     } = this.props;
     const Tag = component;
 
@@ -27,7 +27,7 @@ export default class Text extends PureComponent {
       <Tag
         className={cx({
           text: true,
-          [`text_color_${color}`]: color
+          [`text_color_${color}`]: color,
         })}
       >
         {children}

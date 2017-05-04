@@ -1,11 +1,21 @@
-import React, { Component } from 'react';
+import React, { PureComponent, PropTypes as pt } from 'react';
 import './Table.css';
 import Workout from '../Workout/Workout';
 
-class Table extends Component {
-  renderHead() {
-    const { head } = this.props.data;
+export default class Table extends PureComponent {
+  static propTypes = {
+    type: pt.oneOf([
+      'schedule',
+    ]),
+    abbr: pt.object,
+    data: pt.object,
+  };
 
+  static defaultProps = {
+    type: 'schedule',
+  };
+
+  renderHead(head) {
     if (!head) {
       return;
     }
@@ -13,9 +23,9 @@ class Table extends Component {
     return (
       <thead>
         <tr>
-          {head.map((th, idx) => {
+          {head.map((th, index) => {
             return (
-              <th className='table__th' key={idx}>
+              <th className='table__th' key={index}>
                 {th}
               </th>
             );
@@ -25,27 +35,30 @@ class Table extends Component {
     );
   }
 
-  renderRow(tr, index) {
-    const { type, abbr } = this.props;
+  renderCell(data, index) {
+    const {
+      type,
+      abbr
+    } = this.props;
 
     return (
+      <td className='table__td' key={index}>
+        {type === 'schedule' ?
+          <Workout data={data} abbr={abbr} /> :
+          data}
+      </td>
+    );
+  }
+
+  renderRow(tr, index) {
+    return (
       <tr key={index}>
-        {tr.map((td, index) => {
-          return (
-            <td className='table__td' key={index}>
-              {type === 'schedule' ?
-                <Workout td={td} abbr={abbr} index={index} /> :
-                td}
-            </td>
-          );
-        })}
+        {tr.map(this.renderCell, this)}
       </tr>
     );
   }
 
-  renderBody() {
-    const { body } = this.props.data;
-
+  renderBody(body) {
     if (!body) {
       return;
     }
@@ -58,13 +71,15 @@ class Table extends Component {
   }
 
   render() {
+    const {
+      data
+    } = this.props;
+
     return (
       <table className='table'>
-        {this.renderHead()}
-        {this.renderBody()}
+        {this.renderHead(data.head)}
+        {this.renderBody(data.body)}
       </table>
     );
   }
 }
-
-export default Table;

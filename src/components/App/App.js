@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './App.css';
 import Title from '../Title/Title';
 import Schedule from '../Schedule/Schedule';
 
-class App extends Component {
+export default class App extends PureComponent {
   render() {
     return (
       <div className='app'>
         <div className='app__title'>
-          <Title size='big' align='center' data='Faster Road Racing' />
+          <Title size='big' align='center'>
+            Faster Road Racing
+          </Title>
         </div>
 
         <Schedule plan='half-marathon2' />
@@ -16,5 +18,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
