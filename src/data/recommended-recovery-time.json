@@ -1,0 +1,25 @@
+{
+"title": "Recommended Recovery Time Based on Interval Times",
+"head": [
+  "Duration of interval",
+  "Duration of recovery"
+  ],
+"body": [
+    [
+      "2:00",
+      "1:00-1:45"
+    ], [
+      "3:00",
+      "1:30-2:30"
+    ], [
+      "4:00",
+      "2:00-3:00"
+    ], [
+      "5:00",
+      "2:30-3:00"
+    ], [
+      "6:00",
+      "3:00-3:30"
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Adjusting Training After Injury or Illness",
+  "head":[
+    "Training weeks lost",
+    "Cross-train: Yes",
+    "Cross-train: No"
+  ],
+  "body": [
+    [
+      "0-1",
+      "Resume schedule.",
+      "Resume schedule."
+    ], [
+      "1-2",
+      "Resume schedule.",
+      "Revise race goal. Start back with 1 week of base training, then resume schedule."
+    ], [
+      "2-3",
+      "Resume schedule. Adjust workout paces for 1-2 weeks.",
+      "Revise race goal. Start back with 2 weeks of base training, then resume schedule, and adjust workout paces."
+    ], [
+      ">3",
+      "Revise race goal. Start back with base training, then resume schedule, and adjust workout paces.",
+      "Find a new goal race."
+    ]
+  ]
+}

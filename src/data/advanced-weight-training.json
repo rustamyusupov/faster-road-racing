@@ -1,0 +1,35 @@
+{
+"title": "More Advanced Weight Training Routine",
+"head": [
+  "Exercise",
+  "Sets",
+  "Reps (at 80% of max)"
+  ],
+"body": [
+    [
+      "Alternating dumbbell press",
+      "2-3",
+      "6-8 per arm"
+    ], [
+      "Lunge with twist",
+      "2-3",
+      "6-8 per leg"
+    ], [
+      "Back hyperextension",
+      "2-3",
+      "6-8"
+    ], [
+      "Weighted crunch",
+      "2-3",
+      "12-15"
+    ], [
+      "Squat",
+      "2-3",
+      "6-8"
+    ], [
+      "Romanian deadlift",
+      "2-3",
+      "6-8"
+    ]
+  ]
+}

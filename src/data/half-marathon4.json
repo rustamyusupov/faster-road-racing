@@ -1,5 +1,5 @@
 {
-  "title": "Half Marathon Schedule 2: 73 to 102 km per week",
+  "title": "Half Marathon Schedule 4: 130 to 161 km per week",
   "head": [
     "Weeks to goal",
     "Monday",
@@ -18,36 +18,36 @@
         "distance": "11",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "10 + 6",
         "description": ""
       }, {
         "type": "GA",
-        "distance": "14",
-        "description": ""
-      }, {
-        "type": "LT",
-        "distance": "13",
-        "description": "15 min LT interval\n(jog 4 min recovery)\n12 min LT interval"
-      }, {
-        "type": "E",
         "distance": "16",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "LT",
+        "distance": "18",
+        "description": "18 min LT interval (jog 4 min recovery) 12 min LT interval"
+      }, {
+        "type": "E + R",
+        "distance": "21 + 8",
+        "description": ""
+      }, {
+        "type": "R",
+        "distance": "11",
         "description": ""
       }, {
         "type": "GAs",
-        "distance": "11",
-        "description": "2 sets of 6 × 100 m strides\n(jog 3 min between sets)"
+        "distance": "16",
+        "description": "2 sets of 6 × 100 m strides (jog 3 min between sets)"
       }, {
         "type": "E",
-        "distance": "19",
+        "distance": "24",
         "description": ""
       }, {
         "type": "Total",
-        "distance": "73 km",
+        "distance": "130 km",
         "description": ""
       }
     ], [
@@ -56,36 +56,36 @@
         "distance": "10",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "6 + 8",
         "description": ""
       }, {
         "type": "GA",
-        "distance": "14",
+        "distance": "16",
         "description": ""
       }, {
         "type": "LT",
-        "distance": "14",
-        "description": "18 min LT interval\n(jog 4 min recovery)\n14 min LT interval"
+        "distance": "19",
+        "description": "20 min LT interval (jog 4 min recovery) 16 min LT interval"
       }, {
-        "type": "E",
-        "distance": "18",
+        "type": "E + R",
+        "distance": "21 + 8",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "R",
+        "distance": "11",
         "description": ""
       }, {
         "type": "GAs",
-        "distance": "11",
-        "description": "6 × 12 sec uphill\nfollowed by\n8 × 100 m strides"
+        "distance": "18",
+        "description": "8 × 12 sec uphill followed by 8 × 100 m strides"
       }, {
         "type": "E",
-        "distance": "21",
+        "distance": "26",
         "description": ""
       }, {
         "type": "Total",
-        "distance": "78 km",
+        "distance": "137 km",
         "description": ""
       }
     ], [
@@ -94,36 +94,36 @@
         "distance": "9",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "10 + 8",
         "description": ""
       }, {
         "type": "GA",
-        "distance": "14",
-        "description": ""
-      }, {
-        "type": "LT",
-        "distance": "16",
-        "description": "20 min LT interval\n(jog 4 min recovery)\n16 min LT interval"
-      }, {
-        "type": "E",
         "distance": "18",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "LT",
+        "distance": "19",
+        "description": "22 min LT interval (jog 4 min recovery) 18 min LT interval"
+      }, {
+        "type": "E + R",
+        "distance": "23 + 8",
+        "description": ""
+      }, {
+        "type": "2RR",
+        "distance": "6 + 6",
         "description": ""
       }, {
         "type": "GAs",
-        "distance": "13",
-        "description": "6 × 12 sec uphill\nfollowed by\n8 × 100 m strides"
+        "distance": "18",
+        "description": "8 × 12 sec uphill followed by 8 × 100 m strides"
       }, {
         "type": "PLR",
-        "distance": "23",
-        "description": "Increase effort\nsteadily throughout run,\nlast 3 km @ LT pace"
+        "distance": "27",
+        "description": "Increase effort steadily throughout run, last 2 miles (3 km) @ LT pace "
       }, {
         "type": "Total",
-        "distance": "84 km",
+        "distance": "143 km",
         "description": ""
       }
     ], [
@@ -132,36 +132,36 @@
         "distance": "8R",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "10 + 8",
         "description": ""
       }, {
         "type": "GA",
-        "distance": "13",
+        "distance": "18",
         "description": ""
       }, {
         "type": "GA",
         "distance": "16",
         "description": ""
       }, {
-        "type": "GA",
-        "distance": "14",
+        "type": "E",
+        "distance": "21",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "11 + 8",
         "description": ""
       }, {
         "type": "GAs",
-        "distance": "14",
-        "description": "2 sets of 5 × 150 m strides\n(jog 250 m recovery\nand 4 min between sets)"
+        "distance": "16",
+        "description": "2 sets of 6 × 150 m strides (jog 250 m recovery and 4 min between sets)"
       }, {
         "type": "E",
-        "distance": "18",
+        "distance": "23",
         "description": ""
       }, {
         "type": "Total",
-        "distance": "75 km",
+        "distance": "130 km",
         "description": ""
       }
     ], [
@@ -170,36 +170,36 @@
         "distance": "7",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "10 + 8",
         "description": ""
       }, {
         "type": "GA",
-        "distance": "14",
-        "description": ""
-      }, {
-        "type": "LT",
-        "distance": "16",
-        "description": "22 min LT interval\n(jog 4 min recovery)\n18 min LT interval"
-      }, {
-        "type": "E",
         "distance": "18",
         "description": ""
       }, {
-        "type": "R",
-        "distance": "5",
+        "type": "LT",
+        "distance": "12",
+        "description": "38 min change-of-pace tempo run: 4 min fast, 4 min steady, followed by 5 × (2 min fast, 4 min steady)"
+      }, {
+        "type": "E + R",
+        "distance": "23 + 8",
+        "description": ""
+      }, {
+        "type": "2RR",
+        "distance": "10 + 8",
         "description": ""
       }, {
         "type": "GAs",
-        "distance": "13",
-        "description": "2 sets of 6 × 100 m strides\n(jog 3 min between sets)"
+        "distance": "18",
+        "description": "2 sets of 6 × 100 m strides (jog 3 min between sets)"
       }, {
         "type": "PLR",
-        "distance": "23",
-        "description": "Increase effort\nsteadily throughout run,\nlast 5 km @ LT pace"
+        "distance": "29",
+        "description": "Increase effort steadily throughout run, last 3 miles (5 km) @ LT pac"
       }, {
         "type": "Total",
-        "distance": "89 km",
+        "distance": "151 km",
         "description": ""
       }
     ], [
@@ -208,36 +208,36 @@
         "distance": "6",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "10 + 8",
         "description": ""
       }, {
         "type": "GA",
-        "distance": "14",
+        "distance": "18",
         "description": ""
       }, {
         "type": "VO2max",
-        "distance": "16",
-        "description": "3 × 1,200 m, 3 × 1,000 m\nAll intervals @ 3K-5K race pace\n(jog 50-90% interval time recovery)"
-      }, {
-        "type": "E",
         "distance": "19",
+        "description": "2 × 1,600 m, 2 × 1,200 m, 2 × 1,000 m All intervals @ 3K-5K race pace (jog 50-90% interval time recovery)"
+      }, {
+        "type": "E + R",
+        "distance": "24 + 8",
         "description": ""
       }, {
-        "type": "R",
-        "distance": "6",
+        "type": "2RR",
+        "distance": "11 + 8",
         "description": ""
       }, {
         "type": "GAs",
-        "distance": "13",
-        "description": "6 × 12 sec uphill\nfollowed by 8 × 100 m strides"
+        "distance": "19",
+        "description": "8 × 12 sec uphill followed by 8 × 100 m strides "
       }, {
         "type": "E",
-        "distance": "24",
-        "description": "Increase effort\nsteadily throughout run,\nlast 5 km @ LT pace"
+        "distance": "29",
+        "description": ""
       }, {
         "type": "Total",
-        "distance": "92 km",
+        "distance": "154 km",
         "description": ""
       }
     ], [
@@ -246,36 +246,36 @@
         "distance": "5",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "10 + 8",
         "description": ""
       }, {
         "type": "GA",
-        "distance": "14",
+        "distance": "18 + 8",
         "description": ""
       }, {
         "type": "LT",
-        "distance": "16",
-        "description": "40 min tempo run"
-      }, {
-        "type": "E",
         "distance": "19",
+        "description": "44 min change-of-pace tempo run: 4 min fast, 4 min steady, followed by 6 × (2 min fast, 4 min steady)"
+      }, {
+        "type": "E + R",
+        "distance": "24 + 8",
         "description": ""
       }, {
-        "type": "R",
-        "distance": "8",
+        "type": "2RR",
+        "distance": "10 + 8",
         "description": ""
       }, {
         "type": "GAs",
-        "distance": "14",
+        "distance": "19",
         "description": "10 × 100 m strides"
       }, {
         "type": "PLR",
-        "distance": "26",
-        "description": "Increase effort\nsteadily throughout run,\nlast 5 km @ LT pace"
+        "distance": "29",
+        "description": "Increase effort steadily throughout run, last 3 miles (5 km) @ LT pace"
       }, {
         "type": "Total",
-        "distance": "97 km",
+        "distance": "161 km",
         "description": ""
       }
     ], [
@@ -284,36 +284,36 @@
         "distance": "4",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "10 + 8",
         "description": ""
       }, {
         "type": "GAs",
-        "distance": "16",
-        "description": "2 sets of 5 × 150 m strides\n(jog 250 m recovery\nand 4 min between sets)"
+        "distance": "19",
+        "description": "2 sets of 5 × 150 m strides (jog 250 m between intervals and 4 min between sets)"
       }, {
-        "type": "GA",
-        "distance": "14",
+        "type": "GA + R",
+        "distance": "14 + 8",
+        "description": ""
+      }, {
+        "type": "GA + R",
+        "distance": "11 + 8",
         "description": ""
       }, {
         "type": "R",
-        "distance": "11",
-        "description": ""
-      }, {
-        "type": "R",
-        "distance": "6",
+        "distance": "10",
         "description": "4 × 100 m strides"
       }, {
-        "type": "8K-10K TUR",
-        "distance": "16",
+        "type": "8K-10K TUR + R",
+        "distance": "19 + 8",
         "description": ""
       }, {
         "type": "E",
-        "distance": "19",
+        "distance": "23",
         "description": ""
       }, {
         "type": "Total",
-        "distance": "84 km",
+        "distance": "138 km",
         "description": ""
       }
     ], [
@@ -322,36 +322,36 @@
         "distance": "3",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "11 + 8",
         "description": ""
       }, {
-        "type": "GA",
-        "distance": "14",
-        "description": ""
-      }, {
-        "type": "E",
-        "distance": "18",
-        "description": ""
-      }, {
-        "type": "VO2max",
-        "distance": "18",
-        "description": "6 × 1,200 m @ 3K-5K race pace\n(jog 50-90% interval time recovery)"
-      }, {
-        "type": "R",
-        "distance": "10",
-        "description": ""
-      }, {
-        "type": "GA",
-        "distance": "16",
+        "type": "GA + R",
+        "distance": "18 + 8",
         "description": ""
       }, {
         "type": "E",
-        "distance": "26",
+        "distance": "21",
+        "description": ""
+      }, {
+        "type": "VO2max + R",
+        "distance": "19 + 8",
+        "description": "2 × 1,600 m, 2 × 1,200 m 2 × 1,000m All intervals @ 3K-5K race pace (jog 50-90% interval time recovery)"
+      }, {
+        "type": "2RR",
+        "distance": "11 + 8",
+        "description": ""
+      }, {
+        "type": "GA",
+        "distance": "18",
+        "description": ""
+      }, {
+        "type": "E",
+        "distance": "31",
         "description": ""
       }, {
         "type": "Total",
-        "distance": "102 km",
+        "distance": "161 km",
         "description": ""
       }
     ], [
@@ -360,36 +360,36 @@
         "distance": "2",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "10 + 8",
         "description": ""
       }, {
         "type": "GAs",
-        "distance": "16",
-        "description": "2 sets of 5 × 150 m strides\n(jog 250 m recovery\nand 4 min between sets)"
+        "distance": "18",
+        "description": "2 sets of 5 × 150 m strides (jog 250 m recovery and 4 min between sets)"
       }, {
-        "type": "GA",
-        "distance": "14",
+        "type": "GA + R",
+        "distance": "14 + 8",
+        "description": ""
+      }, {
+        "type": "GA + R",
+        "distance": "11 + 8",
         "description": ""
       }, {
         "type": "R",
-        "distance": "11",
-        "description": ""
-      }, {
-        "type": "R",
-        "distance": "6",
+        "distance": "10",
         "description": "4 × 100 m strides"
       }, {
-        "type": "8K-10K TUR",
-        "distance": "16",
+        "type": "8K-10K TUR + R",
+        "distance": "19 + 8",
         "description": ""
       }, {
         "type": "E",
-        "distance": "19",
+        "distance": "23",
         "description": ""
       }, {
         "type": "Total",
-        "distance": "84 km",
+        "distance": "138 km",
         "description": ""
       }
     ], [
@@ -398,36 +398,36 @@
         "distance": "1",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "10 + 6",
         "description": ""
       }, {
         "type": "GA",
-        "distance": "11",
+        "distance": "14",
         "description": ""
       }, {
-        "type": "R",
-        "distance": "8",
+        "type": "2RR",
+        "distance": "10 + 6",
         "description": ""
       }, {
         "type": "VO2max",
         "distance": "16",
-        "description": "2 × 1,200 m, 4 × 800 m\nAll intervals @ 3K-5K race pace\n(jog 50-90% interval time recovery)"
+        "description": "3 × 1,200 m 3 × 1,000 m All intervals @ 3K-5K race pace (jog 50-90% interval time recovery)"
       }, {
         "type": "R",
-        "distance": "6",
+        "distance": "11",
         "description": ""
       }, {
         "type": "GAs",
-        "distance": "10",
-        "description": "2 sets of 6 × 100 m strides\n(jog 3 min between sets)"
+        "distance": "16",
+        "description": "2 sets of 6 × 100 m strides (jog 3 min between sets)"
       }, {
         "type": "E",
-        "distance": "18",
+        "distance": "19",
         "description": ""
       }, {
         "type": "Total",
-        "distance": "69 km",
+        "distance": "110 km",
         "description": ""
       }
     ], [
@@ -436,13 +436,17 @@
         "distance": "0",
         "description": ""
       }, {
-        "type": "R/CT",
-        "distance": "",
+        "type": "2RR",
+        "distance": "10 + 6",
         "description": ""
       }, {
         "type": "RPs",
-        "distance": "13",
-        "description": "6 × 100 m strides\n3.2 km @ half marathon\nrace pace"
+        "distance": "14",
+        "description": "8 × 100 m strides (2 miles (3 km) @ half marathon race pace"
+      }, {
+        "type": "2RR",
+        "distance": "10 + 6",
+        "description": ""
       }, {
         "type": "R",
         "distance": "11",
@@ -452,20 +456,16 @@
         "distance": "10",
         "description": ""
       }, {
-        "type": "Rest",
-        "distance": "",
-        "description": ""
-      }, {
         "type": "R",
         "distance": "6",
         "description": "4 × 100 m strides"
       }, {
         "type": "HM goal race",
-        "distance": "27",
+        "distance": "29",
         "description": ""
       }, {
         "type": "Total",
-        "distance": "67 km",
+        "distance": "102 km",
         "description": ""
       }
     ]

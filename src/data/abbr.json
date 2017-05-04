@@ -2,6 +2,7 @@
   "Rest": "No training day",
   "R/CT": "Rest or cross-training",
   "R": "Recovery",
+  "2RR": "2 recovery runs",
   "GA": "General aerobic",
   "LT": "Lactate threshold",
   "E": "Endurance",
@@ -10,5 +11,9 @@
   "PLR": "Progression long run",
   "8K-10K TUR": "8K-10K Tune-up race",
   "RPs": "Race pace + speed",
-  "HM goal race": "Half marathon goal race"
+  "HM goal race": "Half marathon goal race",
+  "E + R": "Endurance & Recovery",
+  "GA + R": "General aerobic & Recovery",
+  "8K-10K TUR + R": "8K-10K Tune-up race & Recovery",
+  "VO2max + R": "VO2max intervals & Recovery"
 }

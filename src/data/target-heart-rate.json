@@ -1,0 +1,31 @@
+{
+  "title": "target heart rate training intensities",
+  "head":[
+    "",
+    "Maximal heart rate (%)",
+    "Heart rate reserve (%)"
+  ],
+  "body": [
+    [
+      "V·O2max",
+      "94-98",
+      "92-97"
+    ], [
+      "Lactate threshold",
+      "80-91",
+      "75-88"
+    ], [
+      "Endurance",
+      "74-84",
+      "65-78"
+    ], [
+      "General aerobic",
+      "70-81",
+      "62-75"
+    ], [
+      "Recovery",
+      "< 76",
+      "< 70"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Heart Rate Intensity Zones",
+  "head":[
+    "Run",
+    "Maximal heart rate",
+    "Heart rate reserve"
+  ],
+  "body": [
+    [
+      "Recovery",
+      "<76%",
+      "<70%"
+    ], [
+      "General aerobic",
+      "70-81%",
+      "62-75%"
+    ], [
+      "Endurance",
+      "74-84%",
+      "65-78%"
+    ], [
+      "Lactate threshold",
+      "80-91%",
+      "75-88%"
+    ], [
+      "V·O2max",
+      "94-98%",
+      "92-97%"
+    ]
+  ]
+}

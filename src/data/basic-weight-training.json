@@ -1,0 +1,35 @@
+{
+"title": "Basic Weight Training Routine",
+"head": [
+  "Exercise",
+  "Sets",
+  "Reps (at 60% of max)"
+  ],
+"body": [
+    [
+      "Seated triceps press",
+      "1-3",
+      "8-12"
+    ], [
+      "Lunge",
+      "1-3",
+      "8-12 per leg"
+    ], [
+      "Dumbbell lat row",
+      "1-3",
+      "8-12 per arm"
+    ], [
+      "Weighted crunch",
+      "1-3",
+      "15-20"
+    ], [
+      "Alternating shoulder press",
+      "1-3",
+      "8-12"
+    ], [
+      "Squat",
+      "1-3",
+      "8-12"
+    ]
+  ]
+}

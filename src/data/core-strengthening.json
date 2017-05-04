@@ -1,0 +1,45 @@
+{
+"title": "Core-Strengthening Routines",
+"routine": [
+ {
+   "head": [
+     "Basic core routine",
+     "Duration or reps"
+   ],
+   "body": [
+     [
+       "Abdominal crunch",
+       "20 reps"
+     ], [
+       "Superman hold",
+       "30 reps"
+     ], [
+       "SFire hydrant",
+       "30 reps"
+     ], [
+       "Donkey kick",
+       "10 reps per leg"
+     ]
+   ]
+ }, {
+   "head": [
+     "Advanced core routine",
+     "Duration or reps"
+   ],
+   "body": [
+     [
+       "Plank",
+       "60 sec"
+     ], [
+       "Side plank",
+       "30 sec per side"
+     ], [
+       "Superman crunch",
+       "20 reps"
+     ], [
+       "Supine plank",
+       "45 sec"
+     ]
+   ]
+ }
+}

@@ -1,0 +1,117 @@
+{
+  "title": "Base Training: Building Up to 48 km per Week",
+  "head":[
+    "",
+    "Monday",
+    "Tuesday",
+    "Tuesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Weekly volume"
+  ],
+  "body": [
+    [
+      "Week 1",
+      "R/CT",
+      "GA 6 km"
+      "R/CT",
+      "GA 5 km",
+      "GA 5 km",
+      "R/CT",
+      "E 10 km",
+      "26 km"
+    ], [
+      "Week 2",
+      "R/CT",
+      "GA 6 km",
+      "R/CT",
+      "GA 6 km",
+      "GA 5 km",
+      "R/CT",
+      "E 11 km",
+      "28 km"
+    ], [
+      "Week 3",
+      "R/CT",
+      "GA 6 km",
+      "R/CT",
+      "GA 6 km",
+      "GA 5 km",
+      "R/CT",
+      "E 11 km",
+      "28 km"
+    ], [
+      "Week 4",
+      "R/CT",
+      "GA 6 km",
+      "R/CT",
+      "GAs 8 km 6 × 100 m strides",
+      "GA 6 km",
+      "R/CT",
+      "E 11 km",
+      "31 km"
+    ], [
+      "Week 5",
+      "R/CT",
+      "GA 8 km",
+      "R/CT",
+      "LT 10 km 16 min tempo run",
+      "GA 6 km",
+      "R/CT",
+      "E 13 km",
+      "37 km"
+    ], [
+      "Week 6",
+      "R/CT",
+      "GA 8 km",
+      "R/CT",
+      "GAs 10 km 6 × 100 m strides",
+      "GA 6 km",
+      "R/CT",
+      "E 13 km",
+      "37 km"
+    ], [
+      "Week 7",
+      "R/CT",
+      "GA 10 km",
+      "R/CT",
+      "LT 10 km 18 min tempo run",
+      "GA 8 km",
+      "R/CT",
+      "E 13 km",
+      "41 km"
+    ], [
+      "Week 8",
+      "R/CT",
+      "GA 10 km",
+      "R/CT",
+      "GAs 11 km 6 × 100 m strides",
+      "GA 10 km",
+      "R/CT",
+      "E 14 km",
+      "45 km"
+    ], [
+      "Week 9",
+      "R/CT",
+      "GA 10 km",
+      "R/CT",
+      "LT 11 km 20 min tempo run",
+      "GA 10 km",
+      "R/CT",
+      "E 14 km",
+      "45 km"
+    ], [
+      "Week 10",
+      "R/CT",
+      "GA 11 km",
+      "R/CT",
+      "GAs 13 km 8 × 100 m strides",
+      "GA 10 km",
+      "R/CT",
+      "E 14 km",
+      "48 km"
+    ]
+  ]
+}
