@@ -1,7 +1,8 @@
 import React, { PureComponent, PropTypes as pt } from 'react';
 import ReactModal from 'react-modal';
+import cx from 'classnames';
 import './Modal.css';
-import Button from '../Button/Button';
+// import Button from '../Button/Button';
 
 export default class Modal extends PureComponent {
   static propTypes = {
@@ -28,13 +29,16 @@ export default class Modal extends PureComponent {
 
     return (
       <ReactModal
+        overlayClassName={cx('modal')}
+        className={cx('content')}
         contentLabel={contentLabel}
         isOpen={isOpen}
         shouldCloseOnOverlayClick={true}
         onRequestClose={onRequestClose}
       >
         {close &&
-          <Button
+          <button
+            className={cx('close')}
             onClick={onRequestClose}
           />
         }
