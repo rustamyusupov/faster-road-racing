@@ -9,20 +9,20 @@ export default class Schedule extends PureComponent {
     super(props);
 
     this.state = {
-      abbr: {},
+      workouts: {},
       plan: {},
     };
   }
 
   componentDidMount() {
-    const abbrURL = '/data/abbr.json';
+    const workoutsURL = '/data/workouts.json';
     const planURL = `/data/${this.props.plan}.json`;
 
-    axios.get(abbrURL)
+    axios.get(workoutsURL)
       .then(res => {
-        const abbr = res.data;
+        const workouts = res.data;
 
-        this.setState({ abbr });
+        this.setState({ workouts });
       });
 
     axios.get(planURL)
@@ -34,7 +34,7 @@ export default class Schedule extends PureComponent {
   }
 
   render() {
-    const { plan, abbr } = this.state;
+    const { plan, workouts } = this.state;
 
     return (
       <section className='schedule'>
@@ -43,7 +43,7 @@ export default class Schedule extends PureComponent {
         </div>
 
         <div className='schedule__table'>
-          <Table abbr={abbr} data={plan} />
+          <Table workouts={workouts} data={plan} />
         </div>
       </section>
     );

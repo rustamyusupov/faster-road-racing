@@ -8,7 +8,7 @@ import Tooltip from '../Tooltip/Tooltip';
 
 export default class Workout extends PureComponent {
   static propTypes = {
-    abbr: pt.object,
+    workouts: pt.object,
     data: pt.object,
   };
 
@@ -29,12 +29,12 @@ export default class Workout extends PureComponent {
   handleCloseModal = () =>
     this.setState({ showModal: false });
 
-  renderType(type, abbr) {
+  renderType(type, workouts) {
     const {
       showModal,
       tooltip,
     } = this.state;
-    const description = abbr && abbr[type];
+    const description = workouts && workouts[type];
 
     return (
       <span className='workout__type'>
@@ -72,7 +72,7 @@ export default class Workout extends PureComponent {
       distance,
       description
     } = this.props.data;
-    const { abbr } = this.props;
+    const { workouts } = this.props;
     const isNotTraining = type === 'Week' || type === 'Total';
 
     if (isNotTraining) {
@@ -93,7 +93,7 @@ export default class Workout extends PureComponent {
 
     return (
       <span className='workout'>
-        {this.renderType(type, abbr)}
+        {this.renderType(type, workouts)}
       </span>
     );
   }

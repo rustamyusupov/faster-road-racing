@@ -7,7 +7,7 @@ export default class Table extends PureComponent {
     type: pt.oneOf([
       'schedule',
     ]),
-    abbr: pt.object,
+    workouts: pt.object,
     data: pt.object,
   };
 
@@ -38,13 +38,13 @@ export default class Table extends PureComponent {
   renderCell(data, index) {
     const {
       type,
-      abbr
+      workouts
     } = this.props;
 
     return (
       <td className='table__td' key={index}>
         {type === 'schedule' ?
-          <Workout data={data} abbr={abbr} /> :
+          <Workout data={data} workouts={workouts} /> :
           data}
       </td>
     );

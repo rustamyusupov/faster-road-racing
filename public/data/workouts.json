@@ -1,0 +1,53 @@
+{
+  "Rest": {
+    "transcript": "No training day",
+    "description": "No training day"
+  },
+  "R/CT": {
+    "transcript": "Rest or cross-training",
+    "description": "For many runners, one or two aerobic cross-training sessions strategically inserted in your training program each week can enhance recovery while providing variety and aerobic fitness benefits."
+  },
+  "R": {
+    "transcript": "Recovery",
+    "description": "Although you’re not exactly jogging, make sure the pace feels appreciably easier on your recovery runs than on your general aerobic runs. Try to run on relatively flat terrain during your recovery runs because your heart rate will quickly increase above the recommended range running uphill and the impact forces of downhill running can slow recovery."
+  },
+  "GA": {
+    "transcript": "General aerobic",
+    "description": "The effort should be greater than during a recovery run and less than during a long run. These runs should be conversational but should not feel like a jog."
+  },
+  "LT": {
+    "transcript": "Lactate threshold",
+    "description": "These runs are usually 20 to 40 minutes long and run at an intensity between LT pace and 10 seconds per mile faster than LT pace. Steady pacing and effort are the hallmark of good tempo runs.
+    LT intervals are run at the same intensity as a classic tempo run and are also performed at a steady pace. To accumulate more time at your lactate threshold, break the efforts into several long intervals with a short jog recovery in between."
+  },
+  "E": {
+    "transcript": "Endurance",
+    "description": "For most of your long runs we recommend beginning at a conversational pace and gradually increasing your tempo as the run progresses."
+  },
+  "GAs": {
+    "transcript": "General aerobic + speed",
+    "description": "Accelerate to full speed by halfway, holding it for the remainder of the distance, and then gradually slowing. For uphill sprints, run at close to all-out effort to maximize the speed and power gains."
+  },
+  "VO2max": {
+    "transcript": "VO2max intervals",
+    "description": "Always perform V· O2max workouts as a set of intervals (harder efforts) with a recovery period after each interval.
+    To ensure proper recovery, lightly jog for 50 to 90 percent of the time it takes to run each interval. For instance, if the workout consists of 6 × 1,000 meters in 3:20, you jog slowly for 1:40 to 3:00 after each interval. Staying in the proper pace range is important for getting the full benefits of V · O2max workouts."
+  },
+  "PLR": {
+    "transcript": "Progression long run",
+    "description": "Progression long runs start at the same intensity as the other long runs but increase in effort to lactate threshold pace."
+  },
+  "8K-10K TUR": {
+    "transcript": "8K-10K Tune-up race",
+    "description": "Although you should run a tune-up race at close to maximal effort, you will not be completely fresh. All the training is geared toward your target race; that means when you toe the line for a tune-up race, you can expect residual fatigue. This will likely mean a moderately slower time than if you had tapered fully. Keep that in mind when evaluating your tune-up race performances."
+  },
+  "RPs": {
+    "transcript": "Race pace + speed",
+    "description": "Speed: accelerate to full speed by halfway, holding it for the remainder of the distance, and then gradually slowing.
+    Race pace: most well-trained runners race half marathons 5 to 15 seconds per mile slower than their LT pace."
+  },
+  "HM goal race": {
+    "transcript": "Half marathon goal race",
+    "description": "Most well-trained runners race half marathons 5 to 15 seconds per mile slower than their LT pace. Running a relatively even pace throughout the race is almost always the optimal strategy for achieving your best performance. If you have trained hard and tapered well, even pacing might feel like you are holding back a bit during the first few miles. If you have been slightly too conservative and feel strong during the second half of the race, increase your effort a few seconds per mile. This pacing strategy will put you in good stead for your best performance."
+  }
+}
