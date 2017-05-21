@@ -17,8 +17,7 @@
   },
   "LT": {
     "transcript": "Lactate threshold",
-    "description": "These runs are usually 20 to 40 minutes long and run at an intensity between LT pace and 10 seconds per mile faster than LT pace. Steady pacing and effort are the hallmark of good tempo runs.
-    LT intervals are run at the same intensity as a classic tempo run and are also performed at a steady pace. To accumulate more time at your lactate threshold, break the efforts into several long intervals with a short jog recovery in between."
+    "description": "These runs are usually 20 to 40 minutes long and run at an intensity between LT pace and 10 seconds per mile faster than LT pace. Steady pacing and effort are the hallmark of good tempo runs. LT intervals are run at the same intensity as a classic tempo run and are also performed at a steady pace. To accumulate more time at your lactate threshold, break the efforts into several long intervals with a short jog recovery in between."
   },
   "E": {
     "transcript": "Endurance",
@@ -30,8 +29,7 @@
   },
   "VO2max": {
     "transcript": "VO2max intervals",
-    "description": "Always perform V· O2max workouts as a set of intervals (harder efforts) with a recovery period after each interval.
-    To ensure proper recovery, lightly jog for 50 to 90 percent of the time it takes to run each interval. For instance, if the workout consists of 6 × 1,000 meters in 3:20, you jog slowly for 1:40 to 3:00 after each interval. Staying in the proper pace range is important for getting the full benefits of V · O2max workouts."
+    "description": "Always perform VO2max workouts as a set of intervals (harder efforts) with a recovery period after each interval. To ensure proper recovery, lightly jog for 50 to 90 percent of the time it takes to run each interval. For instance, if the workout consists of 6 × 1,000 meters in 3:20, you jog slowly for 1:40 to 3:00 after each interval. Staying in the proper pace range is important for getting the full benefits of VO2max workouts."
   },
   "PLR": {
     "transcript": "Progression long run",
@@ -43,8 +41,7 @@
   },
   "RPs": {
     "transcript": "Race pace + speed",
-    "description": "Speed: accelerate to full speed by halfway, holding it for the remainder of the distance, and then gradually slowing.
-    Race pace: most well-trained runners race half marathons 5 to 15 seconds per mile slower than their LT pace."
+    "description": "Speed: accelerate to full speed by halfway, holding it for the remainder of the distance, and then gradually slowing. Race pace: most well-trained runners race half marathons 5 to 15 seconds per mile slower than their LT pace."
   },
   "HM goal race": {
     "transcript": "Half marathon goal race",
