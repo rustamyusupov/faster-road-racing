@@ -17,8 +17,9 @@ export default class Workout extends PureComponent {
     showModal: false,
   }
 
-  handleMouseOver = () =>
+  handleMouseOver = () => {
     this.setState({ tooltip: true });
+  }
 
   handleMouseOut = () =>
     this.setState({ tooltip: false });
@@ -29,39 +30,56 @@ export default class Workout extends PureComponent {
   handleCloseModal = () =>
     this.setState({ showModal: false });
 
+  renderModal(show, description) {
+    return (
+      <Modal
+        contentLabel='Test'
+        close={true}
+        isOpen={show}
+        onRequestClose={this.handleCloseModal}
+      >
+        <Text>
+          {description}
+        </Text>
+      </Modal>
+    )
+  }
+
+  renderButton(type) {
+    return (
+      <Button type='link'
+        onClick={this.handleOpenModal}
+        onMouseOver={this.handleMouseOver}
+        onMouseOut={this.handleMouseOut}
+      >
+        {type}
+      </Button>
+    )
+  }
+
+  renderTooltip(tooltip, transcript) {
+    return (
+      <span className='workout__tooltip'>
+        <Tooltip visible={tooltip}>
+          {transcript}
+        </Tooltip>
+      </span>
+    )
+  }
+
   renderType(type, workouts) {
     const {
       showModal,
       tooltip,
     } = this.state;
-    const description = workouts && workouts[type];
+    const transcript = workouts && workouts[type]['transcript'];
+    const description = workouts && workouts[type]['description'];
 
     return (
       <span className='workout__type'>
-        <Modal
-          contentLabel='Test'
-          close={true}
-          isOpen={showModal}
-          onRequestClose={this.handleCloseModal}
-        >
-          <Text>
-            For most of your long runs we recommend beginning at a conversational pace and gradually increasing your tempo as the run progresses.
-          </Text>
-        </Modal>
-
-        <Button type='link'
-          onClick={this.handleOpenModal}
-          onMouseOver={this.handleMouseOver}
-          onMouseOut={this.handleMouseOut}
-        >
-          {type}
-        </Button>
-
-        <span className='workout__tooltip'>
-          <Tooltip visible={tooltip}>
-            {description}
-          </Tooltip>
-        </span>
+        {this.renderModal(showModal, description)}
+        {this.renderButton(type)}
+        {this.renderTooltip(tooltip, transcript)}
       </span>
     );
   }
@@ -86,7 +104,7 @@ export default class Workout extends PureComponent {
     if (distance) {
       return (
         <span className='workout'>
-          {this.renderType(type)}-{distance}<br/>{description}
+          {this.renderType(type, workouts)}-{distance}<br/>{description}
         </span>
       );
     }
