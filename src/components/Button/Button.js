@@ -10,6 +10,8 @@ export default class Button extends PureComponent {
       'link'
     ]),
     onClick: pt.func,
+    onMouseOver: pt.func,
+    onMouseOut: pt.func,
   };
 
   static defaultProps = {
@@ -22,6 +24,8 @@ export default class Button extends PureComponent {
       component,
       type,
       onClick,
+      onMouseOver,
+      onMouseOut
     } = this.props;
     const Tag = component;
 
@@ -33,6 +37,8 @@ export default class Button extends PureComponent {
         })}
         type='button'
         onClick={onClick}
+        onMouseOver={onMouseOver}
+        onMouseOut={onMouseOut}
       >
         {children}
       </Tag>
