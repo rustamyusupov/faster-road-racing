@@ -17,9 +17,8 @@ export default class Workout extends PureComponent {
     showModal: false,
   }
 
-  handleMouseOver = () => {
+  handleMouseOver = () =>
     this.setState({ tooltip: true });
-  }
 
   handleMouseOut = () =>
     this.setState({ tooltip: false });
