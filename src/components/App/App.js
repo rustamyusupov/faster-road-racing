@@ -13,7 +13,7 @@ export default class App extends PureComponent {
           </Title>
         </div>
 
-        <Schedule plan='half-marathon2' />
+        <Schedule plan='half-marathon1' />
       </div>
     );
   }
